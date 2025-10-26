@@ -34,7 +34,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
 
-     - name: Build Docker image
+      - name: Build Docker image
         run: |
           docker build -t myapp:test .
           echo "Docker image built successfully!"
