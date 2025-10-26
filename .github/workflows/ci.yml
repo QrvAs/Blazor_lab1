@@ -6,7 +6,6 @@ on:
     branches: [master]
 
 jobs:
-  # Job 1: Проверка качества Dockerfile
   lint:
     runs-on: ubuntu-latest
     steps:
